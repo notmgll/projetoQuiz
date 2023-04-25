@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgba(128, 128, 128, 0.87), lightgrey);
+    border-bottom: 5px solid rgb(15, 15, 131);
+    height: 100px;
+    padding: 10px;
+}
+
+.ajuda {
+    position: absolute;
+    right: 50px;
+    height: 100%;
+    padding: 35px;
+    
+}
+
+.ajuda:hover {
+    border-top: 4px solid blue;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.botao {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;  
+    color: black;
+    border-top: 2px blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao:hover {
+    background-color: rgb(216, 212, 212);
+}
+
+h1 {
+    color: rgb(15, 15, 131);
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-shadow: 1px 1px 3px black, 2px 2px 3px rgb(39, 74, 230);
+}
+
+header {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    height: 1030px;
+    background-image:url(../img/gabirel.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    text-shadow: -0.5px -0.5px 2px rgb(0, 0, 201);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.iniciar {
+    justify-content: center;
+    text-shadow: -0.5px -0.5px 2px blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    
+}
+
+.heart {
+    position: absolute;
+   width: 50px;
+   bottom: 14px;
+   left: 525px;
+}
+
+.start {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+    border: 2px solid black;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: radial-gradient(rgb(24, 134, 185), rgb(25, 25, 167)); 
+}
+
+.start:hover {
+    padding: 25px 45px;
+    background-image: radial-gradient(rgb(32, 170, 235), rgb(19, 19, 160)); 
+    box-shadow: 5px 5px 15px;
+}
+
+.footer {
+    height: 300px;
+    border-top: 10px solid rgb(15, 15, 131);
+    background-image: linear-gradient(180deg, rgba(173, 171, 171, 0.87), rgb(80, 80, 80));
+    text-align: center;
+    padding: 50px;
+}
+
+b {
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 25px;
+}
+
+    @media screen and (max-width:654px) {
+        .ajuda {
+            display: none;
+        }
+
+        nav {
+            justify-content: center;
+        }
+
+        h1 {
+            margin-right: 100px;
+        }
+
+        .iniciar {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .start {
+            margin-left: 22px;
+        }
+    }
+
+
+.principal {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    border: 1px solid black;
+    background-image: url(../img/gabirel.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.question {
+    position: absolute;
+    top:0;
+    margin-top: 100px;
+}
+
+.resposta {
+    position: absolute;
+    
+    width: 800px;
+}
+
+.alternativas {
+    list-style: none;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.respbotao {
+    border: 3px solid blue;
+    padding: 30PX;
+    margin: 20px;
+    border-radius: 100px;
+    background-color: black;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.balao {
+position: relative;
+width: 700px;
+margin-left: 500px;
+margin-bottom: 200px;
+}
+
+.voltar {
+    position: absolute;
+    right: 50px;
+   
+}
+
+.botaovoltar {
+    padding: 32px;
+    text-decoration: none;
+    font-size: 20px;  
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botaovoltar:hover {
+    border-top: 6px solid blue;
+    background-color: lightgrey;
+    cursor: pointer;
+}
