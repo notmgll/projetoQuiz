@@ -1,4 +1,13 @@
-@media screen and (max-width:654px) {
+@media screen and (max-width:600px) {
+    header {
+        height: 600px;
+        background-attachment: local;
+    }
+
+    footer {
+        display: none;
+    }
+
     .ajuda {
         display: none;
     }
@@ -18,17 +27,6 @@
 
     .start {
         margin-left: 22px;
-    }
-}
-
-@media screen and (max-width:381px) {
-    header {
-        height: 600px;
-        background-attachment: local;
-    }
-
-    footer {
-        display: none;
     }
 
     .question {
