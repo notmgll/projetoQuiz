@@ -76,6 +76,11 @@
         padding-bottom: 150px
     }
 
+    .start:hover {
+        padding: 20px 40px;
+        background-image: radial-gradient(rgb(32, 170, 235), rgb(19, 19, 160));
+    }
+
 
 
 }
