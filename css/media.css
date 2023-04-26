@@ -1,0 +1,75 @@
+@media screen and (max-width:654px) {
+    .ajuda {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    h1 {
+        margin-right: 100px;
+    }
+
+    .iniciar {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .start {
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width:381px) {
+    header {
+        height: 600px;
+        background-attachment: local;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .question {
+        margin-top: 0;
+        
+    }
+
+    .resposta {
+    
+        width: 300px;
+    
+    }
+
+    .alternativas {
+        font-size: 20px;
+    }
+
+    .principal {
+        height: 700px;
+        background-attachment: local;
+    }
+
+    .voltar {
+        display: none;
+    }
+
+    .botaovoltar {
+        display: none;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .balao {
+        position: relative;
+        width: 250px;
+        margin-right: 340px;
+        margin-top: 200px;
+    }
+
+
+
+}
